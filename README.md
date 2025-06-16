@@ -1,16 +1,18 @@
-# myapp
+# Calculadora de Bitola
+- Este projeto em Flutter é uma calculadora de bitola de cabos elétricos de cobre para uso residencial. O usuário informa a distância do circuito (em metros) e a corrente elétrica (em amperes), e o aplicativo calcula automaticamente a bitola recomendada do cabo (em mm²) para tensões de 127V e 220V, com base em fórmulas técnicas de queda de tensão.
 
-A new Flutter project.
+![Print0](./assets/bitola.png)
 
-## Getting Started
+# Tecnologias
+- Flutter
+- Dart
+- vsCode
+- Firebase Studio
 
-This project is a starting point for a Flutter application.
-
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+# Como testar
+- Clone este repositório
+- Abra com VsCode ou Android Studio, com um terminal instale as dependências e execute no emulador ou navegador
+```bash
+flutter pub get
+flutter run
+```
